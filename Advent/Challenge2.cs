@@ -10,7 +10,7 @@ static class Challenge2
 
     public static void Read()
     {
-        var filePath = "C:\\Users\\aaron.small\\OneDrive - Datacom\\Desktop\\advent\\challenge2.txt";
+        var filePath = ".\\data\\challenge2.txt";
 
         using var streamReader = new StreamReader(filePath);
 

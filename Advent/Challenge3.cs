@@ -3,7 +3,7 @@
 
     public static void Process2()
     {
-        var filePath = "C:\\Users\\aaron.small\\OneDrive - Datacom\\Desktop\\advent\\challenge3.txt";
+        var filePath = ".\\data\\challenge3.txt";
 
         using var streamReader = new StreamReader(filePath);
         var lines = File.ReadAllLines(filePath);
@@ -63,7 +63,7 @@
 
     public static void Process()
     {
-        var filePath = "C:\\Users\\aaron.small\\OneDrive - Datacom\\Desktop\\advent\\challenge3.txt";
+        var filePath = ".\\data\\challenge3.txt";
 
         using var streamReader = new StreamReader(filePath);
 

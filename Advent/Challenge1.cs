@@ -7,7 +7,7 @@ public static class Challenge1
         var totals = new List<int>();
         int currentChampion = 0;
         
-        var filePath = "C:\\Users\\aaron.small\\OneDrive - Datacom\\Desktop\\advent\\challenge1.txt";
+        var filePath = ".\\data\\challenge1.txt";
 
         int total = 0;
         using var streamReader = new StreamReader(filePath);
